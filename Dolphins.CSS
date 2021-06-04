@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "AlienEncounters";
+    src: url(AlienEncounters.ttf);
+}
+
+body {
+    font-family: AlienEncounters;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/017/475/217/large/keanu-deblaere-first-try-vaporwave.jpg?1556129176);
+    background-size: Cover;
+}
+
+.superior {
+    display: flex;
+    justify-content: center;
+}
+
+#titulo {
+    font-size: 23px;
+}
+
+.AddYourDolphin {
+    min-width: 350px;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+#buttondolphin {
+    font-size: 30px;
+    padding: 5px;
+    border-bottom: 5px solid #10D7AE;
+    border-left: 8px solid #C774E8;
+    border-top: 8px solid #C774E8;
+    border-right: 5px solid #10D7AE;
+    background-color: #AD8CFF;
+    cursor: pointer;
+    user-select: none;
+}
+
+.dolphinlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #94D0FF solid;
+    background-color: #C774E8;
+}
+
+#Dolphinsclass {
+    width: 100%;
+    border-bottom: #94D0FF solid;
+    text-align: center;
+}
+
+.listdolphins {
+    width: 100%;
+    border: black;
+}
+
+.Dcolum1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: #94D0FF solid;
+}
+
+.Dolphiname {
+    padding: 5px;
+    border-right: #8795E8 solid;
+    width: 900px;
+    text-align: center;
+}
+
+.Dolphinduration {
+    padding: 5px;
+    border-right: #8795E8 solid;
+    width: 90px;
+    text-align: center;
+}
+
+.Dolphinalbum {
+    padding: 5px;
+    border-right: #8795E8 solid;
+    width: 250px;
+    text-align: center;
+}
